@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C-295M | Esquadra 502 — Plataformas de Estudo</title>
+<style>
+:root {
+  --bg-0: #0A0E13;
+  --bg-1: #11171F;
+  --bg-2: #161D27;
+  --line: #263240;
+  --text-0: #ECF1F4;
+  --text-1: #AEBAC6;
+  --text-2: #6B7888;
+  --accent-green: #7FE787;
+  --accent-amber: #E8A33D;
+  --accent-blue: #5B9BD5;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: 'Courier New', monospace;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--bg-0); color: var(--text-0);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+.tag {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--accent-green);
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 10px;
+  line-height: 1.25;
+}
+.sub {
+  font-size: 14.5px;
+  color: var(--text-1);
+  line-height: 1.55;
+  margin: 0 0 32px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--bg-1);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s, transform 0.1s;
+}
+.card:hover {
+  border-color: var(--text-2);
+  transform: translateY(-1px);
+}
+.dot {
+  width: 4px;
+  height: 38px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.card-title {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--text-0);
+}
+.card-desc {
+  font-size: 12.5px;
+  color: var(--text-2);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+.chev {
+  margin-left: auto;
+  color: var(--text-2);
+  flex-shrink: 0;
+}
+.footer {
+  margin-top: 36px;
+  font-size: 11.5px;
+  color: var(--text-2);
+  line-height: 1.6;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="tag">ESQUADRA 502 · C-295M</div>
+  <h1>Plataformas de Estudo</h1>
+  <p class="sub">Escolhe a ferramenta que queres consultar. Cada uma é independente e guarda o teu progresso separadamente.</p>
+
+  <a class="card" href="Munif%26MCAs.html">
+    <div class="dot" style="background: var(--accent-green);"></div>
+    <div>
+      <div class="card-title">Munif &amp; MCAs</div>
+      <div class="card-desc">Manuais, flashcards, quiz e tabelas de valores — MUNIF e os MCA 502-1, 500-3(A), 502-3, 502-2(A).</div>
+    </div>
+    <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+  </a>
+
+  <a class="card" href="AOM.html">
+    <div class="dot" style="background: var(--accent-blue);"></div>
+    <div>
+      <div class="card-title">AOM</div>
+      <div class="card-desc">Aircraft Operating Manual.</div>
+    </div>
+    <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+  </a>
+
+  <a class="card" href="Airbus.html">
+    <div class="dot" style="background: var(--accent-amber);"></div>
+    <div>
+      <div class="card-title">Airbus</div>
+      <div class="card-desc">Documentação técnica Airbus.</div>
+    </div>
+    <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+  </a>
+
+  <div class="footer">
+    O progresso guardado em cada ferramenta fica neste navegador, neste dispositivo, e não é partilhado entre as três.
+  </div>
+</div>
+</body>
+</html>
